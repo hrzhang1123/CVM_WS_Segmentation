@@ -129,7 +129,7 @@ def AOS_v2(u, n, g, tau, mu, f, beta, dNu, b, alpha, varsigma, theta_tai):
 
 
 
-def ConvexSeg_Run_CVOnly(z,lambda1,tau,Iters,utol,sigma1,lambda3,eps2,theta_tai,cols,rows,Mask):
+def ConvexVariational_Seg(z,lambda1,tau,Iters,utol,sigma1,lambda3,eps2,theta_tai,cols,rows,Mask):
 
     m, n = np.shape(z)
     SSF = np.zeros(np.shape(z))
