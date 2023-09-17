@@ -1,3 +1,5 @@
+## From 'A Convex Geodesic Selective Model for Image Segmentation', by Roberts, Michael, Ke Chen, and Klaus L. Irion 
+
 from scipy.sparse.linalg import spsolve
 import numpy as np
 from scipy.ndimage import gaussian_filter, morphology
